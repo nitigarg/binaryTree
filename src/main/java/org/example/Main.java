@@ -28,5 +28,9 @@ public class Main {
         System.out.println();
         System.out.println("LevelOrder traversal");
         LevelOrderTraversal.levelorderTraversal(root);
+        SizeOfBinaryTree ob=new SizeOfBinaryTree();
+        System.out.println();
+        int size=ob.size(root);
+        System.out.println("size of given tree is "+size);
     }
 }
