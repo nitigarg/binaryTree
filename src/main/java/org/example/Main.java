@@ -34,5 +34,10 @@ public class Main {
         System.out.println("size of given tree is "+size);
         System.out.println(MaximumNodeInTree.findMax(root));
         System.out.println(MinimumNodeInTree.findMin(root));
+
+        LevelOrderRevision.levelOrder(root);
+        System.out.println();
+        System.out.println("Left view of Binary Tree");
+        LeftViewOfBinaryTree.leftView(root);
     }
 }
