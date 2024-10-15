@@ -32,5 +32,7 @@ public class Main {
         System.out.println();
         int size=ob.size(root);
         System.out.println("size of given tree is "+size);
+        System.out.println(MaximumNodeInTree.findMax(root));
+        System.out.println(MinimumNodeInTree.findMin(root));
     }
 }
